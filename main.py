@@ -38,8 +38,8 @@ if not is_admin():
 # -------------------------------
 # Mail ayarları
 # -------------------------------
-SENDER_EMAIL = "otomasyonsorumlusu@sayinprefabrik.com.tr"
-SENDER_PASSWORD = "/**/Tutku123"
+SENDER_EMAIL = "mail adresiniz"
+SENDER_PASSWORD = "mail adresi şifresi"
 SMTP_SERVER = "smtp.yandex.com"
 SMTP_PORT = 465
 
@@ -353,7 +353,7 @@ user_btn_frame.pack(pady=5)
 tk.Button(user_btn_frame, text="Kullanıcı Ekle", command=add_user).pack(side=tk.LEFT, padx=5)
 tk.Button(user_btn_frame, text="Kullanıcı Sil", command=remove_user).pack(side=tk.LEFT, padx=5)
 
-footer = tk.Label(root, text="SAYIN PREFABRİK BİLGİ İŞLEM", font=("Arial", 10, "bold"))
+footer = tk.Label(root, text="Kutal Dijital", font=("Arial", 10, "bold"))
 footer.pack(pady=10)
 
 # JSON yükleme
